@@ -1,0 +1,10 @@
+{
+  "name": "United States",
+  "dial_code": "+1",
+  "emoji": "🇺🇸",
+  "code": "US",
+  "language": {
+    "name": "English",
+    "code": "en"
+  }
+}

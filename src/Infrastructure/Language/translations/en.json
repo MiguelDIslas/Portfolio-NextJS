@@ -1,0 +1,50 @@
+{
+  "layout": {
+    "home": "Home",
+    "about": "About",
+    "resume": "Resume",
+    "portfolio": "Portfolio",
+    "contact": "Contact"
+  },
+  "home": {
+    "title": "Hi I'm",
+    "primaryText": "I'm a software developer, I like to create things that live on the internet, from websites to applications.",
+    "secondaryText": "I'm love with JavaScript/Typescript ecosystems.",
+    "thirdText": "I'm working with React Native, React, .Net Ecosystem and NextJS. I'm currently improving Java, Software Architecture and Design Patterns."
+  },
+  "about": {
+    "title": "About Me",
+    "description": "I'm a self-taught person, born and raised in Chihuahua, Mexico. I'm into react ecosystem, I've been working with it for 2 and a half years. I'm currently working as a Mobile Developer.",
+    "description2": "I like to play games, if I'm not playing games I'm probably watching movies or series."
+  },
+  "resume": {
+    "title": "Hard Skills",
+    "title2": "Resume",
+    "subtitle": "Working Experience",
+    "subtitle2": "Educational Qualifications",
+    "work": {
+      "description1": "I'm working react native and .Net, applying Clean Code, Clean Architecture principles, Design Patterns and testing integration.",
+      "description2": "I worked with ASP.NET, I was in charge of maintaining one module of the system and I helped with another modules, I also worked with the database creating some stored procedures and functions.",
+      "description3": "Systems Engineer, specialty Agile Software Development."
+    }
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "description": "Here are a few projects I've worked on recently. Want to see more? Email me."
+  },
+  "contact": {
+    "title": "Contact Me",
+    "input": {
+      "base": "Enter your {{name}}",
+      "name": "Name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message"
+    },
+    "button": "Send Email"
+  },
+  "general": {
+    "now": "Current",
+    "code": "Code"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "id": 2,
+  "tech": "Laravel",
+  "image": "/png/portfolio/sse.png",
+  "productionLink": "https://sse.delicias.tecnm.mx/",
+  "title": "ITD SSE",
+  "description": "Full Stack: Developed with Laravel, Livewire and MySQL."
+}

@@ -1,0 +1,8 @@
+{
+  "id": 1,
+  "tech": "NextJS",
+  "image": "/png/portfolio/gonher.png",
+  "productionLink": "https://www.gonherbaterias.com/",
+  "title": "Baterías Gonher",
+  "description": "Front-end: This website was developed with NextJS, this website is not for Gonher Group, it's for a client."
+}

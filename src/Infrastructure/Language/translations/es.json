@@ -1,0 +1,50 @@
+{
+  "layout": {
+    "home": "Inicio",
+    "about": "Acerca",
+    "resume": "Resumen",
+    "portfolio": "Portafolio",
+    "contact": "Contacto"
+  },
+  "home": {
+    "title": "Hola, soy",
+    "primaryText": "Soy un desarrollador de software, me gusta crear cosas que viven en internet, desde sitios web hasta aplicaciones.",
+    "secondaryText": "Me encanta el ecosistema de JavaScript/Typescript.",
+    "thirdText": "Estoy trabajando con React Native, React, .Net y NextJS. Actualmente estoy mejorando Java, Arquitectura de Software y Patrones de Diseño."
+  },
+  "about": {
+    "title": "Acerca de mi",
+    "description": "Soy una persona autodidacta, nacido y criado en Chihuahua, México. Me gusta el ecosistema de react, he estado trabajando con él durante 2 años y medio. Actualmente estoy trabajando como Desarrollador Móvil.",
+    "description2": "Me gusta jugar videojuegos, si no estoy jugando, probablemente esté viendo películas o series."
+  },
+  "resume": {
+    "title": "Habilidades fuertes",
+    "title2": "Resumen",
+    "subtitle": "Experiencia Laboral",
+    "subtitle2": "Educación",
+    "work": {
+      "description1": "Estoy trabajando con React Native y .Net, aplicando principios de Clean Code, Clean Architecture, Patrones de Diseño y pruebas de integración.",
+      "description2": "Trabajé con ASP.NET, me encargué de mantener un módulo del sistema y ayudé con otros módulos, también trabajé con la base de datos creando algunas stored procedures y funciones.",
+      "description3": "Ingeniero de Software, especialidad Desarrollo de Software Ágil."
+    }
+  },
+  "portfolio": {
+    "title": "Portafolio",
+    "description": "Aquí hay algunos proyectos en los que he trabajado recientemente. ¿Quieres ver más? Envíame un correo."
+  },
+  "contact": {
+    "title": "Contáctame",
+    "input": {
+      "base": "Ingresa tu {{name}}",
+      "name": "Nombre",
+      "email": "Correo",
+      "subject": "Tema",
+      "message": "Mensaje"
+    },
+    "button": "Envía Correo"
+  },
+  "general": {
+    "now": "Actualmente",
+    "code": "Código"
+  }
+}

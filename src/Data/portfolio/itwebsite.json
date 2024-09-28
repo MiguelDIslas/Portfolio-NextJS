@@ -1,0 +1,8 @@
+{
+  "id": 3,
+  "tech": ".Net",
+  "image": "/png/portfolio/itdelicias.png",
+  "productionLink": "https://www.delicias.tecnm.mx/",
+  "title": "ITD Website",
+  "description": "Front-end: Mostly HTML, SCSS and JS for design and responsiveness. I worked with it until june 2021."
+}

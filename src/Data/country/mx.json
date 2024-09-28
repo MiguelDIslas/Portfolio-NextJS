@@ -1,0 +1,10 @@
+{
+  "name": "Mexico",
+  "dial_code": "+52",
+  "emoji": "🇲🇽",
+  "code": "MX",
+  "language": {
+    "name": "Spanish",
+    "code": "es"
+  }
+}

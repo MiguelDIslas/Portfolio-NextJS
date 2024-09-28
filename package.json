@@ -9,18 +9,30 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
+    "TagCloud": "2.3.2",
+    "emailjs": "^4.0.3",
+    "i18next": "^23.15.1",
+    "next": "14.2.13",
     "react": "^18",
+    "react-country-flag": "^3.1.0",
     "react-dom": "^18",
-    "next": "14.2.13"
+    "react-hot-toast": "^2.4.1",
+    "react-i18next": "^15.0.2",
+    "react-icons": "^5.3.0",
+    "react-select": "^5.8.1",
+    "react-tsparticles": "1.39.0",
+    "sass": "^1.79.3",
+    "zustand": "5.0.0-rc.2"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.13",
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.13"
+    "typescript": "^5"
   }
 }

@@ -3,6 +3,7 @@
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
+    "downlevelIteration": true,
     "strict": true,
     "noEmit": true,
     "esModuleInterop": true,
@@ -18,7 +19,29 @@
       }
     ],
     "paths": {
-      "@/*": ["./*"]
+      // Application
+      "@State/*": ["./src/Application/State/*"],
+      "@Service/*": ["./src/Application/Service/*"],
+      "@UseCases/*": ["./src/Application/UseCases/*"],
+
+      // Data
+      "@Data/*": ["./src/Data/*"],
+
+      // Domain
+      "@Entity/*": ["./src/Domain/Entity/*"],
+      "@Enum/*": ["./src/Domain/Enum/*"],
+      "@IRepository/*": ["./src/Domain/Repository/*"],
+
+      // Infrastructure
+      "@Language/*": ["./src/Infrastructure/Language/*"],
+      "@Repository/*": ["./src/Infrastructure/Repository/*"],
+
+      // Shared
+      "@Constants/*": ["./src/Shared/Constants/*"],
+
+      // Presentation
+      "@Components/*": ["./src/Presentation/Components/*"],
+      "@Screens/*": ["./src/Presentation/Screens/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
