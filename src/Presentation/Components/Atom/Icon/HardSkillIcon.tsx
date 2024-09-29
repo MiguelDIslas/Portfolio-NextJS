@@ -24,7 +24,7 @@ const HardSkillIcon: React.FC<HardSkillIconProps> = ({ name, Icon }) => {
   return (
     <div className="flex items-center">
       <Icon
-        className="w-28 h-28 text-white transition-all duration-75 ease-in-out
+        className="w-16 h-16 lg:w-28 lg:h-28 text-white transition-all duration-75 ease-in-out
         hover:text-primary-color hover:drop-shadow-sm cursor-pointer"
         title={name}
       />

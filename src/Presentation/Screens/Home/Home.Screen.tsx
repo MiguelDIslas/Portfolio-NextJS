@@ -9,18 +9,18 @@ import SocialMediaButton from "@Components/Atom/Button/SocialMediaButton";
 
 export default function HomeScreen() {
   return (
-    <div className="w-full min-h-screen relative">
+    <div className="w-full min-h-screen relative flex justify-center items-center">
       <Particle />
-      <section className="w-[80%] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
-        <p className="text-[4rem] text-center font-bold mb-5 xl:mb-0 prevent-select">
+      <section className="w-4/5 h-full mt-10 lg:mt-0">
+        <p className="text-4xl lg:text-[4rem] text-center font-bold mb-5 prevent-select">
           {i18n.t("home.title")}
-          <span className="text-[4rem] text-primary-color ml-2">
+          <span className="text-4xl lg:text-[4rem] text-primary-color ml-2">
             Miguel Delgado
           </span>
         </p>
-        <p className="text-sm text-center lg:text-lg font-semibold prevent-select flex flex-wrap">
+        <p className="leading-relaxed text-sm text-center lg:text-lg font-semibold prevent-select flex flex-wrap gap-y-3 lg:gap-y-1">
           <span>{i18n.t("home.primaryText")}</span>
-          <span className="text-primary-color w-full text-center text-sm lg:text-lg">
+          <span className="text-primary-color w-full">
             {i18n.t("home.secondaryText")}
           </span>
           <span>{i18n.t("home.thirdText")}</span>

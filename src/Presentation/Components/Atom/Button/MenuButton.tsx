@@ -15,7 +15,7 @@ type MenuButtonProps = {
  */
 const MenuButton: React.FC<MenuButtonProps> = ({ onClick }) => {
   return (
-    <div className="absolute right-[5%] top-[3%] hidden z-[15] large:block">
+    <div className="fixed right-[5%] top-[3%] hidden z-[15] large:block">
       <MdMenu
         className="text-[3rem] text-white cursor-pointer"
         onClick={onClick}

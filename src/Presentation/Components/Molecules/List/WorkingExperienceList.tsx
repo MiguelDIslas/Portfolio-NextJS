@@ -21,7 +21,7 @@ const WorkingExperienceList = (): JSX.Element => {
         </div>
         <div className="border-l-2 border-border-color">
           <ResumeItem
-            title="Mobile/Fullstack Developer"
+            title="Mobile Developer"
             company="Telstock"
             companyUrl="https://www.telstock.net/"
             description={i18n.t("resume.work.description1")}

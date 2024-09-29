@@ -10,7 +10,7 @@ export default function PortfolioScreen() {
   return (
     <div className="py-8 px-2 mid:py-18 mid:px-18 md:py-20 md:px-20 prevent-select">
       <Title text={i18n.t("portfolio.title")} />
-      <div className="flex justify-center items-center flex-wrap w-3/4 my-8 mx-auto">
+      <div className="flex justify-center items-center flex-wrap w-full my-8">
         {filters.map((filter) => (
           <button
             key={filter}
@@ -23,7 +23,7 @@ export default function PortfolioScreen() {
         ))}
       </div>
 
-      <div className="grid grid-cols-1 gap-8 p-12 md:grid-cols-2 lg:grid-cols-3">
+      <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
         {portfolios.map((portfolio, i) => (
           <PortfolioItem key={i} portfolio={portfolio} />
         ))}

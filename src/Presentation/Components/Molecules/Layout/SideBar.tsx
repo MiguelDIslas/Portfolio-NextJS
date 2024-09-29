@@ -9,6 +9,7 @@ import { Routes } from "@Constants/Route";
 import { useLayout } from "@State/layout.state";
 import SideItem from "@Components/Atom/Layout/SideItem";
 import SideIcon from "@Components/Atom/Layout/SideIcon";
+import { isMobile } from "../../../../Utils/Helpers/Responsive.helper";
 
 /**
  * The props of the SideBar component.
@@ -29,7 +30,18 @@ type SideBarProps = {
  * Component that displays the sidebar.
  */
 const SideBar: React.FC<SideBarProps> = ({ navToggle, activeRoute }) => {
-  const { setActiveRoute } = useLayout();
+  const { setActiveRoute, toggleNav } = useLayout();
+
+  /**
+   * Handle the click event.
+   */
+  const onClick = (route: string) => {
+    setActiveRoute(route);
+    if (isMobile()) {
+      toggleNav();
+    }
+  };
+
   return (
     <div
       className={`w-[15rem] fixed h-screen bg-siderbar-dark-color overflow-hidden transition-all duration-75 ease-in-out z-20
@@ -52,7 +64,7 @@ const SideBar: React.FC<SideBarProps> = ({ navToggle, activeRoute }) => {
               key={route.href}
               text={i18n.t(route.translate)}
               href={route.href}
-              onClick={() => setActiveRoute(route.href)}
+              onClick={() => onClick(route.href)}
               active={activeRoute === route.href}
             />
           ))}
