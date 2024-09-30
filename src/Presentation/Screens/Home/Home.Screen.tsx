@@ -19,11 +19,11 @@ export default function HomeScreen() {
           </span>
         </p>
         <p className="leading-relaxed text-sm text-center lg:text-lg font-semibold prevent-select flex flex-wrap gap-y-3 lg:gap-y-1">
-          <span>{i18n.t("home.primaryText")}</span>
+          <span className="w-full">{i18n.t("home.primaryText")}</span>
           <span className="text-primary-color w-full">
             {i18n.t("home.secondaryText")}
           </span>
-          <span>{i18n.t("home.thirdText")}</span>
+          <span className="w-full">{i18n.t("home.thirdText")}</span>
         </p>
         <div className="flex justify-center mt-4">
           <SocialMediaButton
